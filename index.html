@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/81ffce067d.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+
+  </style>
+</head>
+<script src="script.js">
+
+</script>
+<body>
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <img class="logo" src="images/svcetlogo.jpg" alt="" />
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="d-flex flex-row ml-auto navbar-anchor-tag">
+          <a class="navbar-anchor-tags nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="navbar-anchor-tags nav-link" href="about.html" id="about-link">About</a>
+
+          <a class="navbar-anchor-tags nav-link" href="#">Courses</a>
+          <a class="navbar-anchor-tags nav-link" href="#">Events</a>
+          <a class="navbar-anchor-tags nav-link" href="#footer-section">Contact</a>
+        </div>
+        <form class="navbar-form navbar-left" action="/action_page.php">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search">
+   </div>
+</form>
+      </div>
+
+    </div>
+  </nav> -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <img class="logo" src="images/svcetlogo.jpg" alt="" />
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html" id="about-link">About</a>
+
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Computer Science and Engineering</a>
+                        <a class="dropdown-item" href="#">Arificial Intelligence and Machine Learning </a>
+                        <a class="dropdown-item" href="#">Mechanical Engineering</a>
+                        <a class="dropdown-item" href="#">Electronics and Communication Engineering</a>
+                        <a class="dropdown-item" href="#">Electrical and Electronics Engineering</a>
+                        <a class="dropdown-item" href="#">Civil Engineering</a>
+                    </div>
+                </div>
+
+                <a class="nav-item nav-link" href="#">Events</a>
+                <a class="nav-item nav-link" href="#footer-section">Contact</a>
+            </div>
+            <form class="form-inline my-2 my-lg-0" action="/action_page.php">
+                <input type="text" class="form-control" placeholder="Search">
+            </form>
+        </div>
+    </div>
+</nav> -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">
+  <img class="logo" src="images/svcetlogo.jpg" alt="" />
+</a>
+<button
+  class="navbar-toggler"
+  type="button"
+  data-toggle="collapse"
+  data-target="#navbarNavAltMarkup"
+  aria-controls="navbarNavAltMarkup"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div class="navbar-nav mr-auto ml-3">
+    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="about.html" id="about-link">About</a>
+    <div class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        id="navbarDropdownMenuLink"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Courses
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="courses.html">Computer Science and Engineering</a>
+        <a class="dropdown-item" href="aiml_course.html">Artificial Intelligence and Machine Learning</a>
+        <a class="dropdown-item" href="mech_course.html">Mechanical Engineering</a>
+        <a class="dropdown-item" href="ece_course.html">Electronics and Communication Engineering</a>
+        <a class="dropdown-item" href="EEE_course.html">Electrical and Electronics Engineering</a>
+        <a class="dropdown-item" href="">Civil Engineering</a>
+      </div>
+    </div>
+    <a class="nav-link" href="events.html">Events</a>
+    <a class="nav-link" href="contact_section.html">Contact</a>
+  </div>
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
+</div>
+</nav>
+<!-- <div class="text-center top-section-marquees-container">
+</div> -->
+
+
+
+  <section id="home-section" class="home-section">
+    <div class="home-inner-section ">
+      <div class="marquee-continer">
+        <marquee class="top-marquee" behavior="alternate" direction="left" width="50%">
+          College code for EAMCET/ECET/PGCET - "VETS"
+        </marquee>
+      </div>
+       <h1 class="home-section-nmain-heading slide-left" >Welcome to <span class="span-main-heading slide-left">Sri Venkateswara College of Engineering and Technology</span>
+         <img class="home-page-logo ml-2"src="images/naac.gif" alt=""></h1>
+      <div class="text-left p-5 ml-2 mt-3">
+           <h1 class="home-inner-section-quote d-none d-md-block slide-left">With every challenge comes an opportunity <br>to grow,and at <span class="home-inner-section-span-element">our college</span>, <br>we embrace both with enthusiasm.</h1>
+       <div class="text-center">
+          <button type="button" onClick="window.location='about.html';" class="btn btn-danger btn-lg mr-3 mt-4 butn-1 slide-left" name="button">Learn More</button>
+        <a href="#features-section"><button type="button" class="btn btn-primary btn-lg mt-4 butn-2 slide-left" name="button">Visit Courses</button></a>
+         </div>
+      </div>
+
+    <!-- </div> -->
+
+  </section>
+<div class="bg-features-container" id="features-section">
+  <h1 class="features-main-heading mb-5">Departments :</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4 mb-5">
+            <div class="features-content shadow p-3" onClick="window.location='courses.html';">
+                <img class="features-content-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuBBoeMbsWHlrAzgZT7VtuBoGptEa7OUSe5A&usqp=CAU" alt="" />
+                <h1 class="features-text">CSE</h1>
+                <p class="features-content-paragraph">
+                    <span class="specific-content">Computer Science and Engineering</span> <br>
+                    A field of study and profession that focuses on the design, development, and application of computer systems, software, and hardware to solve real-world problems and advance technology.
+                </p>
+            </div>
+        </div>
+
+      <div class="col-12 col-md-4 mb-5">
+          <div class="features-content  shadow p-3" onClick="window.location='aiml_course.html.';">
+              <img class="features-content-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfl68zDqkXUFTojvaNkIm0TubLL8q12t13eA&usqp=CAU" alt="" />
+              <h1 class="features-text">AIML</h1>
+              <p class="features-content-paragraph"><span class="specific-content">Arificial Intelligence and Machine Learning </span><br>Utilizes algorithms and data to enable machines to learn and make intelligent decisions, driving advancements in artificial intelligence applications. </p>
+          </div>
+      </div>
+        <div class="col-12 col-md-4 mb-5">
+            <div class="features-content  shadow p-3" onClick="window.location='mech_course.html.';">
+                <img class="features-content-img" src="images/mec logo.avif" alt="" />
+                <h1 class="features-text">Mechanical</h1>
+                <p class="features-content-paragraph"><span class="specific-content">Mechanical</span><br>Involves the design and development of mechanical systems, applying principles of physics and materials science to various industries, from transportation to energy and beyond.</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+            <div class="features-content  shadow p-3" onClick="window.location='ece_course.html.';">
+                <img class="features-content-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_lkqnlrikMUDxj2fAzAQnWae-EN2C2Pr4g&usqp=CAU" alt="" />
+                <h1 class="features-text">ECE</h1>
+                <p class="features-content-paragraph"><span class="specific-content">Electronics and Communication Engineering</span><br>Focuses on the design, analysis, and application of electronic and communication systems, enabling advancements in telecommunications, signal processing, and embedded technologies.</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+            <div class="features-content  shadow p-3" onClick="window.location='EEE_course.html.';">
+                <img class="features-content-img" src="https://i.pinimg.com/736x/4b/bc/2d/4bbc2da500071035914de88e1da69219.jpg" alt="" />
+                <h1 class="features-text">EEE</h1>
+                <p class="features-content-paragraph"><span class="specific-content">Electrical and Electronics Engineering</span><br>Deals with the study, design, and application of electrical and electronic systems, including power generation, distribution, electronics, and control systems, to address various societal and industrial needs.</p>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md-4 mb-5">
+            <div class="features-content  shadow p-3">
+                <img class="features-content-img" src="images/civil.png" alt="" />
+                <h1 class="features-text">Civil</h1>
+                <p class="features-content-paragraph"><span class="specific-content">Civil Engineering</span><br>Involves the design, construction, and maintenance of infrastructure and buildings, such as roads, bridges, dams, and skyscrapers, contributing to the development and modernization of communities and societies.</p>
+              </div>
+        </div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+
+<!-- MARQUE SECTION -->
+<div class="marquee-container">
+
+<h1 class="marquee-main-heading text-center">Our Recruiters</h1>
+ <marquee  class="mb2 mt-2" behavior="scroll" direction="left">
+    <img class="marquee-img" src="images/company-1.jpg">
+     <img class="marquee-img" src="images/company-28.jpg">
+     <img class="marquee-img" src="images/company-29.jpg">
+     <img class="marquee-img" src="images/company-30.jpg">
+    <img class="marquee-img" src="images/company-2.jpg">
+    <img class="marquee-img" src="images/company-3.jpg">
+    <img class="marquee-img" src="images/company-4.jpg">
+    <img class="marquee-img" src="images/company-5.jpg">
+    <img class="marquee-img" src="images/company-6.jpg">
+
+    <img class="marquee-img" src="images/company-8.jpg">
+    <img class="marquee-img" src="images/company-9.jpg">
+    <img class="marquee-img" src="images/company-10.jpg">
+    <img class="marquee-img" src="images/company-11.jpg">
+    <img class="marquee-img" src="images/company-12.jpg">
+    <img class="marquee-img" src="images/company-13.jpg">
+    <img class="marquee-img" src="images/company-14.jpg">
+    <img class="marquee-img" src="images/company-15.jpg">
+    <img class="marquee-img" src="images/company-16.jpg">
+    <img class="marquee-img" src="images/company-17.jpg">
+    <img class="marquee-img" src="images/company-18.jpg">
+
+    <img class="marquee-img" src="images/company-20.jpg">
+    <img class="marquee-img" src="images/company-21.jpg">
+    <img class="marquee-img" src="images/company-22.jpg">
+    <img class="marquee-img" src="images/company-23.jpg">
+    <img class="marquee-img" src="images/company-24.jpg">
+    <img class="marquee-img" src="images/company-25.jpg">
+    <img class="marquee-img" src="images/company-26.jpg">
+    <img class="marquee-img" src="images/company-27.jpg">
+  </marquee>
+ <marquee class="mb2 mt-2" behavior="scroll" direction="right">
+    <img class="marquee-img" src="images/company-1.jpg">
+    <img class="marquee-img" src="images/company-2.jpg">
+    <img class="marquee-img" src="images/company-3.jpg">
+    <img class="marquee-img" src="images/company-4.jpg">
+    <img class="marquee-img" src="images/company-5.jpg">
+    <img class="marquee-img" src="images/company-6.jpg">
+
+    <img class="marquee-img" src="images/company-8.jpg">
+    <img class="marquee-img" src="images/company-9.jpg">
+    <img class="marquee-img" src="images/company-10.jpg">
+    <img class="marquee-img" src="images/company-11.jpg">
+    <img class="marquee-img" src="images/company-12.jpg">
+    <img class="marquee-img" src="images/company-13.jpg">
+    <img class="marquee-img" src="images/company-14.jpg">
+    <img class="marquee-img" src="images/company-15.jpg">
+    <img class="marquee-img" src="images/company-16.jpg">
+    <img class="marquee-img" src="images/company-28.jpg">
+    <img class="marquee-img" src="images/company-29.jpg">
+    <img class="marquee-img" src="images/company-30.jpg">
+    <img class="marquee-img" src="images/company-17.jpg">
+    <img class="marquee-img" src="images/company-18.jpg">
+
+    <img class="marquee-img" src="images/company-20.jpg">
+    <img class="marquee-img" src="images/company-21.jpg">
+    <img class="marquee-img" src="images/company-22.jpg">
+    <img class="marquee-img" src="images/company-23.jpg">
+    <img class="marquee-img" src="images/company-24.jpg">
+    <img class="marquee-img" src="images/company-25.jpg">
+    <img class="marquee-img" src="images/company-26.jpg">
+    <img class="marquee-img" src="images/company-27.jpg">
+  </marquee>
+ <marquee class="mb2 mt-2" behavior="scroll" direction="left">
+  <img class="marquee-img" src="images/company-15.jpg">
+  <img class="marquee-img" src="images/company-16.jpg">
+  <img class="marquee-img" src="images/company-17.jpg">
+  <img class="marquee-img" src="images/company-18.jpg">
+
+  <img class="marquee-img" src="images/company-20.jpg">
+  <img class="marquee-img" src="images/company-21.jpg">
+  <img class="marquee-img" src="images/company-22.jpg">
+  <img class="marquee-img" src="images/company-23.jpg">
+  <img class="marquee-img" src="images/company-24.jpg">
+  <img class="marquee-img" src="images/company-25.jpg">
+  <img class="marquee-img" src="images/company-26.jpg">
+  <img class="marquee-img" src="images/company-27.jpg">
+    <img class="marquee-img" src="images/company-1.jpg">
+    <img class="marquee-img" src="images/company-2.jpg">
+    <img class="marquee-img" src="images/company-3.jpg">
+    <img class="marquee-img" src="images/company-4.jpg">
+    <img class="marquee-img" src="images/company-5.jpg">
+    <img class="marquee-img" src="images/company-6.jpg">
+
+    <img class="marquee-img" src="images/company-8.jpg">
+    <img class="marquee-img" src="images/company-28.jpg">
+    <img class="marquee-img" src="images/company-29.jpg">
+    <img class="marquee-img" src="images/company-30.jpg">
+    <img class="marquee-img" src="images/company-9.jpg">
+    <img class="marquee-img" src="images/company-10.jpg">
+    <img class="marquee-img" src="images/company-11.jpg">
+    <img class="marquee-img" src="images/company-12.jpg">
+    <img class="marquee-img" src="images/company-13.jpg">
+    <img class="marquee-img" src="images/company-14.jpg">
+  </marquee>
+<marquee class="mb2 mt-2" behavior="scroll" direction="right">
+  <img class="marquee-img" src="images/company-4.jpg">
+  <img class="marquee-img" src="images/company-5.jpg">
+  <img class="marquee-img" src="images/company-6.jpg">
+
+  <img class="marquee-img" src="images/company-8.jpg">
+  <img class="marquee-img" src="images/company-9.jpg">
+  <img class="marquee-img" src="images/company-10.jpg">
+  <img class="marquee-img" src="images/company-11.jpg">
+  <img class="marquee-img" src="images/company-12.jpg">
+  <img class="marquee-img" src="images/company-13.jpg">
+  <img class="marquee-img" src="images/company-14.jpg">
+    <img class="marquee-img" src="images/company-20.jpg">
+    <img class="marquee-img" src="images/company-21.jpg">
+    <img class="marquee-img" src="images/company-22.jpg">
+    <img class="marquee-img" src="images/company-23.jpg">
+    <img class="marquee-img" src="images/company-24.jpg">
+    <img class="marquee-img" src="images/company-25.jpg">
+    <img class="marquee-img" src="images/company-26.jpg">
+    <img class="marquee-img" src="images/company-27.jpg">
+    <img class="marquee-img" src="images/company-12.jpg">
+    <img class="marquee-img" src="images/company-13.jpg">
+    <img class="marquee-img" src="images/company-14.jpg">
+    <img class="marquee-img" src="images/company-15.jpg">
+    <img class="marquee-img" src="images/company-16.jpg">
+    <img class="marquee-img" src="images/company-17.jpg">
+    <img class="marquee-img" src="images/company-18.jpg">
+    <!-- <img class="marquee-img" src="images/company-19.jpg"> -->
+    <img class="marquee-img" src="images/company-28.jpg">
+    <img class="marquee-img" src="images/company-29.jpg">
+    <img class="marquee-img" src="images/company-30.jpg">
+</marquee>
+</div>
+<div class="background-image">
+
+  <div class="contact-form-container">
+    <h1>Contact Form</h1>
+    <div class="contact-form">
+
+      <form method="post">
+        <label for="name" class="lebel-heading">Your Name</label><br>
+        <input type="text" name="name" id="name" placeholder="Your name.."><br>
+
+        <label for="email" class="lebel-heading">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Your email.."><br>
+
+        <label for="mobile_number" class="lebel-heading">Mobile Number</label><br>
+        <input type="text" id="mobile_number" name="mobile_number" placeholder="Your Mobile number.."><br>
+
+        <label for="message" class="lebel-heading">Message</label><br>
+        <textarea name="message"  id="message" placeholder="Write something.." style="height:200px"></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+  <!-- footer SECTION -->
+  <div class="footer-bg-container pt-5" id="footer-section">
+  <div class="container">
+
+   <div class="row">
+       <div class="col-12 col-md-5">
+           <div class="footer-top-section text-center">
+               <img class="footer-section-img" src="images/svcetlogo.jpg" alt="" />
+               <div class="social-network-apps mb-4">
+                   <i class="social-apps-logo fa-brands fa-google"></i>
+                   <i class="social-apps-logo fa-brands fa-twitter"></i>
+                   <i class="social-apps-logo fa-brands fa-instagram"></i>
+                   <i class="social-apps-logo fa-brands fa-linkedin"></i>
+               </div>
+               <p class="footer-section-paragraph">37,SVCET college,etcherla,Andhra Pradesh,India </p>
+           </div>
+       </div>
+
+
+
+       <div class="col-12 col-md-7">
+
+
+           <div class="footer-section-botttom d-flex flex-row justify-content-center mb-2">
+               <div class="mr-4">
+                   <p class="footer-section-paragraph footer-contact-section">Contact us</p>
+                   <p class="footer-section-paragraph footer-contact-section"><i class="fa-solid fa-envelope mr-2"></i> svcet@gmail.com</p>
+                   <p class="footer-section-paragraph footer-contact-section"><i class="fa-solid fa-phone mr-2"></i> 1234567890</p>
+                   <p class="footer-section-paragraph v"><i class="fa-brands fa-skype mr-2"></i> SVCET </p>
+               </div>
+               <div class="mb-5">
+                   <p class="footer-section-paragraph footer-contact-section">Let Us Help You</p>
+                   <p class="footer-section-paragraph footer-contact-section">100% Placement</p>
+                   <p class="footer-section-paragraph footer-contact-section">Your Account</p>
+                   <p class="footer-section-paragraph footer-contact-section">Return Center</p>
+                   <p class="footer-section-paragraph footer-contact-section">Help</p>
+               </div>
+               <hr style="height:2px bg-color:gray">
+
+           </div>
+       </div>
+   </div>
+  </div>
+  <div class="pb-5">
+   <hr class="hr-line" />
+   <p class="footer-section-paragraph text-center"><i class="fa-solid fa-circle-c"></i>2023 by Sunil.SVCET .</p>
+  </div>
+
+  </div>
+
+  <div id="aboutSection"class="about-section" style="display: none;">
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline>
+            <source src="images/SVCET.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Content Overlay -->
+        <div class="about-section-content">
+            <h1>SVCET</h1>
+            <a href="#">Explore Now</a>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/81ffce067d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="events_style.css">
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    nav a:hover {
+      color: #DA0037; /* Change to your desired hover color */
+    }
+  </style>
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <img class="logo" src="images/svcetlogo.jpg" alt="" />
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="d-flex flex-row ml-auto navbar-anchor-tag">
+            <a class="navbar-anchor-tags nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="navbar-anchor-tags nav-link active" href="#aboutSection" id="about-link">About</a>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Courses
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="courses.html">Computer Science and Engineering</a>
+                    <a class="dropdown-item" href="aiml_course.html">Arificial Intelligence and Machine Learning </a>
+                    <a class="dropdown-item" href="mech_course.html">Mechanical Engineering</a>
+                    <a class="dropdown-item" href="ece_course.html">Electronics and Communication Engineering</a>
+                    <a class="dropdown-item" href="EEE_course.html">Electrical and Electronics Engineering</a>
+                    <a class="dropdown-item" href="">Civil Engineering</a>
+                </div>
+            </div>
+
+
+            <a class="navbar-anchor-tags nav-link" href="#">Events</a>
+            <a class="navbar-anchor-tags nav-link" href="contact_section.html">Contact</a>
+          </div>
+          <form class="navbar-form navbar-left" action="/action_page.php">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search">
+     </div>
+  </form>
+        </div>
+
+      </div>
+    </nav>  -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="images/svcetlogo.jpg" alt="" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mr-auto">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="about.html" id="about-link">About</a>
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="courses.html">Computer Science and Engineering</a>
+            <a class="dropdown-item" href="aiml_course.html">Artificial Intelligence and Machine Learning</a>
+            <a class="dropdown-item" href="mech_course.html">Mechanical Engineering</a>
+            <a class="dropdown-item" href="ece_course.html">Electronics and Communication Engineering</a>
+            <a class="dropdown-item" href="EEE_course.html">Electrical and Electronics Engineering</a>
+            <a class="dropdown-item" href="">Civil Engineering</a>
+          </div>
+        </div>
+        <a class="nav-link" href="events.html">Events</a>
+        <a class="nav-link" href="contact_section.html">Contact</a>
+      </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+   <div class="event-bg-container">
+     <div class="inner-bg-container">
+
+
+
+        <h1 class="main-heading">Sports and Cultural Events</h1>
+   </div>
+   </div>
+
+   <div class="cultural-sports-container pt-3 pb-4 pl-3 pr-3">
+      <h1 class="ml-4 mb-2 pt-3 courses-info-side-heading text-left">Culturals :</h1>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-12 col-md-5">
+          <img class="sports-1-img" src="images/culture_1.jpg" alt="">
+       </div>
+       <div class="col-12 col-md-7">
+
+         <p class="mt-1 courses-info-side-paragraph">Cultural activities like Pongal celebrations and rangoli hold a profound and multifaceted significance within the college community. Firstly, they serve as important conduits for cultural exchange and understanding. In the diverse tapestry of a college campus, students hail from various regions, cultures, and backgrounds. Pongal celebrations, rooted in South Indian agricultural traditions, allow for a deep exploration of Indian culture, showcasing its diversity and richness. Students from different parts of India and even from around the world can come together to learn about the significance of Pongal, its rituals, and the communal spirit it embodies. Rangoli, with its intricate designs and vibrant colors, becomes a canvas for artistic expression and cultural representation. Through this art form, students can share their cultural heritage, educate others, and break down barriers of misunderstanding, creating an environment of inclusivity and unity.    </div>
+       <hr class="hr-line">
+
+
+     </div>
+     <div class="row mt-5">
+
+       <div class="col-12 col-md-7">
+
+         <p class="mt-1 courses-info-side-paragraph">Secondly, these cultural activities offer a unique platform for personal growth and development. Organizing and participating in events like Pongal celebrations and rangoli competitions require teamwork, leadership, and event management skills. Students get hands-on experience in planning, organizing, and executing cultural festivities, which can be invaluable for their future careers. Moreover, amidst the academic rigors of college life, these cultural activities offer a respite. They provide an avenue for students to relax, unwind, and find solace in creative expression. The act of designing intricate rangoli patterns or participating in the communal preparation and feasting during Pongal celebrations can be therapeutic, relieving stress and fostering a sense of belonging.
+            Thus, these activities are not mere rituals; they are integral components of a holistic college experience, enriching students' lives, fostering a sense of community, and creating cherished memories that resonate throughout their academic journey and beyond.
+       </div>
+       <div class="col-12 col-md-5">
+          <img class="sports-1-img" src="images/culture_3.jpg" alt="">
+       </div>
+       <hr class="hr-line">
+
+
+     </div>
+
+   </div>
+   <h1 class="ml-4 mb-2 pt-3 courses-info-side-heading text-left">Sports :</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-5">
+       <img class="sports-1-img" src="images/clg-cricket.jpg" alt="">
+    </div>
+    <div class="col-12 col-md-7">
+
+      <p class="mt-1 courses-info-side-paragraph">"Our college prides itself on its top-notch sports facilities, meticulously designed to cater to a wide range of athletic pursuits. The Sports Complex is a haven for sports enthusiasts, offering state-of-the-art facilities for various sports, including a well-equipped gymnasium, swimming pool, and multiple sports courts. Our campus provides a platform for students to explore their passion for sports, fostering teamwork and physical fitness. For those who revel in the thrill of competition, our sports facilities are the place to be. Whether you're into team sports, individual athletics, or simply want to stay fit, our sports facilities offer an array of opportunities to excel and embrace the spirit of sportsmanship."   </div>
+    <hr class="hr-line">
+
+
+  </div>
+  <div class="row mt-5">
+
+    <div class="col-12 col-md-7">
+
+      <p class="mt-1 courses-info-side-paragraph"> Moreover, our college recognizes the importance of promoting inclusivity in sports. We offer a range of sports and fitness activities to cater to diverse interests and abilities. Whether you're a competitive athlete, a casual fitness enthusiast, or someone looking to try a new sport, our sports program has something for everyone. We believe that sports should be a space where all students can thrive and find their passion.
+
+Beyond the physical benefits, our sports program fosters a sense of camaraderie and belonging among our students. The friendships formed on the field, the memorable victories, and even the lessons learned from defeats all contribute to the holistic development of our students. So, whether you're looking to excel in a particular sport, stay active and healthy, or simply enjoy the social aspects of sports, our college's sports facilities and program provide the perfect platform for you to do so."
+    </div>
+    <div class="col-12 col-md-5">
+       <img class="sports-1-img" src="images/clg-volleyboll.jpg" alt="">
+    </div>
+    <hr class="hr-line">
+
+
+  </div>
+
+</div>
+        </div>
+        <div class="footer-bg-container pt-5" id="footer-section">
+        <div class="container">
+
+         <div class="row">
+             <div class="col-12 col-md-5">
+                 <div class="footer-top-section text-center">
+                     <img class="footer-section-img" src="images/svcetlogo.jpg" alt="" />
+                     <div class="social-network-apps mb-4">
+                         <i class="social-apps-logo fa-brands fa-google"></i>
+                         <i class="social-apps-logo fa-brands fa-twitter"></i>
+                         <i class="social-apps-logo fa-brands fa-instagram"></i>
+                         <i class="social-apps-logo fa-brands fa-linkedin"></i>
+                     </div>
+                     <p class="footer-section-paragraph">37,SVCET college,etcherla,Andhra Pradesh,India </p>
+                 </div>
+             </div>
+
+
+
+             <div class="col-12 col-md-7">
+
+
+                 <div class="footer-section-botttom d-flex flex-row justify-content-center mb-2">
+                     <div class="mr-4">
+                         <p class="footer-section-paragraph footer-contact-section">Contact us</p>
+                         <p class="footer-section-paragraph footer-contact-section"><i class="fa-solid fa-envelope mr-2"></i> svcet@gmail.com</p>
+                         <p class="footer-section-paragraph footer-contact-section"><i class="fa-solid fa-phone mr-2"></i> 1234567890</p>
+                         <p class="footer-section-paragraph v"><i class="fa-brands fa-skype mr-2"></i> SVCET </p>
+                     </div>
+                     <div class="mb-5">
+                         <p class="footer-section-paragraph footer-contact-section">Let Us Help You</p>
+                         <p class="footer-section-paragraph footer-contact-section">100% Placement</p>
+                         <p class="footer-section-paragraph footer-contact-section">Your Account</p>
+                         <p class="footer-section-paragraph footer-contact-section">Return Center</p>
+                         <p class="footer-section-paragraph footer-contact-section">Help</p>
+                     </div>
+                     <hr style="height:2px bg-color:gray">
+
+                 </div>
+             </div>
+         </div>
+        </div>
+        <div class="pb-5">
+         <hr class="hr-line" />
+         <p class="footer-section-paragraph text-center"><i class="fa-solid fa-circle-c"></i>2023 by Sunil.SVCET .</p>
+        </div>
+
+        </div>
+
+        <div id="aboutSection"class="about-section" style="display: none;">
+              <!-- Background Video -->
+              <video autoplay loop muted playsinline>
+                  <source src="images/SVCET.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+
+              <!-- Content Overlay -->
+              <div class="about-section-content">
+                  <h1>SVCET</h1>
+                  <a href="#">Explore Now</a>
+              </div>
+          </div>
+
+  </body>
+</html>
